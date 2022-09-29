@@ -1,0 +1,94 @@
+.AdDesigner {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.AdDesigner h3,
+h2 {
+  font-family: 'Caveat';
+}
+
+.AdDesigner h2 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.AdDesigner h3 {
+  font-size: 40px;
+}
+
+.AdDesigner span {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.AdDesigner > div {
+  margin-bottom: 30px;
+}
+
+.AdDesigner .vote-container {
+  border: 2px solid black;
+  width: fit-content;
+  height: fit-content;
+  padding: 30px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.AdDesigner .vote-container span {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.AdDesigner .vote-container h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.AdDesigner button {
+  background: #0e3c7e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 17px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.AdDesigner .color,
+.flavors,
+.set-size {
+  gap: 10px;
+  display: flex;
+}
+
+.AdDesigner .size {
+  display: flex;
+  flex-direction: column;
+}
+
+.AdDesigner .set-size {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+}
+
+.AdDesigner .set-size span {
+  margin-bottom: 0;
+}
+
+.AdDesigner .disabled {
+  background: gray;
+}
