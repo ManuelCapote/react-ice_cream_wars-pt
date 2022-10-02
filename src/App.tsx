@@ -1,8 +1,8 @@
 import React from 'react'
-import logo from './logo.svg'
 import Header from './components/Header'
 import AdDesigner from './components/AdDesigner'
 import Votes from './components/Votes'
+import Counter from './components/Counter'
 
 import './App.css'
 
@@ -14,6 +14,9 @@ function App() {
         <AdDesigner />
         <Votes />
       </div>
+      <br />
+      <br />
+      <Counter />
     </div>
   )
 }

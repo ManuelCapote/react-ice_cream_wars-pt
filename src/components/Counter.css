@@ -1,0 +1,12 @@
+.Counter.negative {
+  background-color: crimson;
+  color: white;
+}
+
+.Counter .circle {
+  border: 2px solid black;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}

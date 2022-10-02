@@ -23,14 +23,6 @@ const AdDesigner = () => {
           <button>Dark</button>
         </div>
       </div>
-      <div className='size'>
-        <span>Font Size</span>
-        <div className='set-size'>
-          <button>Down</button>
-          <span>44</span>
-          <button>Up</button>
-        </div>
-      </div>
     </div>
   )
 }
