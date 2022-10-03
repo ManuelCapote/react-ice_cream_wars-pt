@@ -1,5 +1,7 @@
 .App {
   font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .App .main {
@@ -8,4 +10,15 @@
   width: 100%;
   justify-content: left;
   align-items: top;
+}
+
+@media only screen and (max-width: 991px) {
+  .App .main {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Votes {
+    padding-left: 40px;
+  }
 }
